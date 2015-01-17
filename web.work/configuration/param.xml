@@ -1,0 +1,5 @@
+<param>
+  <specialconstraints maskchars="%_"
+                      minimumlength="1"
+                      maximumperiod="183" />
+</param>

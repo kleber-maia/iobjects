@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<application>
+  <information name="iObjects" title="" url="www.softgroup.com.br" />
+  <logo filename="iobjects.png" width="182" height="48" />
+  <icon filename="iobjects_icon.png" />
+  <systeminformation showtoallusers="false" showtoprivilegedusers="false" />
+  <noticeboard showtoallusers="true" showtoprivilegedusers="true" />
+  <defaultconnection getonlogontime="true" caption="Nome da Empresa" />
+  <demo showonlogontime="true" caption="Ainda não sou cliente" />
+</application>

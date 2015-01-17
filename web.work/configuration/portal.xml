@@ -1,0 +1,12 @@
+<portal>
+  <!--
+    Exemplo da tag de site.
+
+  <site name="sample" sourceurl="127.0.0.1" />
+
+  Onde: name - informa o nome do site associado à URL de origem.
+        sourceurl - URL de origem. Caso 'sourceurl' esteja contida na URL
+                    do web browser, este será o site associado à sessão
+                    do usuário.
+  -->
+</portal>

@@ -1,0 +1,19 @@
+<mailservice>
+  <pop3 active="false"
+        interval="5"
+        hostname="localhost"
+        port="-1"
+        username="username"
+        password="password"
+        ssl="false" />
+  <smtp active="false"
+        hostname="localhost"
+        port="01"
+        username="username"
+        password="password"
+        ssl="false"
+        fromname=""
+        fromaddress=""
+        adminaddress=""
+        supportaddress="" />
+</mailservice>

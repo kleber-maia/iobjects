@@ -1,0 +1,48 @@
+<noticeboard>
+<!--
+  <notice warning="false" date="01/01/2006" emphasize="10/01/2006" title="Título">
+    A descrição pode conter marcação HTML, como: {b}negrito{/b}, {i}itálico{/i},
+    {u}sublinhado{/u}, {span style="color:#ff0000;"}colorido{/span},
+    {a href="www.percent.com.br"}hyperlink{/a}, etc.
+  </notice>
+-->
+
+  <notice warning="false" date="05/04/2013" emphasize="12/04/2013" title="Atualização tecnológica.">
+    {p}
+      Agora o iManager é totalmente compatível com os navegadores Apple Safari e Google Chrome.
+      Essa é uma novidade há muito tempo esperada por todos.
+    {/p}
+    {p}
+      Somando isso a recente atualização da nossa infraestrutura de servidores, dependendo do navegador
+      que você escolher, poderá contar com um aumento de performance de até 1000% no seu dia-a-dia.
+    {/p}
+  </notice>
+
+  <notice warning="false" date="15/11/2010" emphasize="16/11/2010" title="Última atualização de 2010.">
+    {p}Nesta sétima e última atualização do ano, o iManager traz algumas das mais pedidas
+       sugestões dos nossos usuários e que certamente irão facilitar ainda mais o seu dia a dia.{/p}
+    {p}E já estamos trabalhando na versão 2011 que virá repleta de melhorias e novos recursos
+       empolgantes para você e sua empresa. Aguarde!{/p}
+  </notice>
+
+  <notice warning="false" date="10/11/2010" emphasize="31/12/2010" title="Suporte ao usuário.">
+    {p}Devido a mudanças que estão sendo implementadas no nosso serviço de apoio e suporte ao usuário,
+       temporariamente todas as dúvidas ou questões devem ser encaminhadas exclusivamente para o 
+       e-mail oficial: {a href=mailto:suporte@imanager.com.br}suporte@imanager.com.br{/a}.{/p}
+    {p}Estamos trabalhando para melhor atendê-lo(a).{/p}
+  </notice>
+
+  <notice warning="false" date="23/09/2010" emphasize="26/09/2010" title="Novos gráficos comerciais.">
+    {p}O iManager acaba de ganhar novos gráficos comerciais. Criados em HTML5, o padrão tecnológico que
+    está chegando para revolucionar a web, eles são muito mais leves e trazem duas grandes novidades:{/p}
+    {li}Permitem visualizar mais dados através de zoom.{/li}
+    {li}São totalmente compatíveis com iPhone e outros smart phones.{/li}
+    {p}Em breve você verá mais novidades relativas aos gráficos comerciais.{/p}
+  </notice>
+
+  <notice warning="false" date="20/06/2010" emphasize="25/06/2010" title="Nova interface do usuário.">
+    A atualização mais recente do iManager apresenta sua nova interface com o usuário, baseada no novo
+    Office 2010 que começa a ser comercializado pela Microsoft em julho. As telas ganharam novas cores,
+    uma aparência mais elegante e o usuário pode optar por um dos três novos esquemas disponíveis.
+  </notice>
+</noticeboard>

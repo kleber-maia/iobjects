@@ -1,0 +1,25 @@
+<task>
+  <authentication>
+    <login defaultconnectionname="default" username="Administrador" password="administrador" />
+    <login defaultconnectionname="sample"  username="Administrador" password="administrador" />
+  </authentication>
+  <businessobjects>
+    <scheduleable classname="package.ClassName1" />
+    <scheduleable classname="package.ClassName2" />
+    <scheduleable classname="package.ClassName3" />
+  </businessobjects>
+  <schedule reportstatus="true" reportaddress="falecom@softgroup.com.br">
+    <hourly active="false">
+      <hour value="10" />
+      <hour value="16" />
+      <hour value="20" />
+    </hourly>
+    <daily active="false" hour="12:00" />
+    <weekly active="false" hour="12:00" sunday="false" monday="false" tuesday="false" wednesday="false" thursday="false" friday="false" saturday="false" />
+    <monthly active="false" hour="12:00">
+      <day value="10" />
+      <day value="16" />
+      <day value="20" />
+    </monthly>
+  </schedule>
+</task>

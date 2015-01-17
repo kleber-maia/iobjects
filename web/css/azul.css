@@ -1,0 +1,1194 @@
+/**
+ * Estilos dos elementos HTML comuns.
+ */
+
+
+a {
+  color:            #003dcd;
+  text-decoration:  none;
+}
+
+a:hover {
+  color:            #003dcd;
+  text-decoration:  underline;
+}
+
+body {
+  background-color: #deecfc;
+  cursor:           default;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+}
+
+button {
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+  width:            75px;
+  padding:          0px;
+}
+
+div {
+  border:           0px solid #b1c0d6;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+}
+
+fieldset {
+  border:           1px solid #b1c0d6;
+  cursor:           default;
+  padding:          4px;
+  margin:           2px;
+}
+
+form {
+  margin:           0px;
+}
+
+legend {
+  color:            #666d7c;
+  cursor:           default;
+}
+
+input {
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+  height:           20px;
+}
+
+input[type=checkbox] {
+  height:16px;
+}
+
+input[type=text] {
+  border:           1px solid #97b8e3;
+  background-color: #ffffff;
+}
+
+label {
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+}
+
+select {
+  border:           1px solid #97b8e3;
+  background-color: #ffffff;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+  height:           20px;
+}
+
+span {
+  border:           0px solid #b1c0d6;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+}
+
+textarea {
+  border:           1px solid #97b8e3;
+  background-color: #ffffff;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+}
+
+table {
+  border:           0px solid #b1c0d6;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  color:            #3b3b3b;
+}
+
+button[disabled=disabled], div[disabled=disabled], input[disabled=disabled], label[disabled=disabled], td[disabled=disabled], textArea[disabled=disabled], select[disabled=disabled], span[disabled=disabled] {
+  color:            gray;
+}
+
+
+
+
+
+
+/**
+ * Estilos para serem utilizados sobre elementos HTML comuns.
+ */
+
+.ActiveCaption {
+  background-color: #b1c0d6;
+  color:            #FFFFFF;
+  font-weight:      bold;
+}
+
+.AppWorkSpace {
+  background-color: #808080;
+  color:            #FFFFFF;
+}
+
+.BackgroundText {
+  color:               #ffffff;
+}
+
+
+.BtnFace {
+  background-color: #deecfc;
+  color:            #3b3b3b;
+}
+
+.Disabled {
+  background-color: #B8E7FC;
+  color:            #ACA899;
+}
+
+.Highlight {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+}
+
+.Hot {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+}
+
+.InactiveCaption {
+  background-color: #7A96DF;
+  color:            #D8E7FC;
+  font-weight:      bold;
+}
+
+.Info {
+  background-color: #ffffc0;
+  color:            #3b3b3b;
+}
+
+.HorizontalLine {
+  border:           1px solid #b1c0d6;
+  border-left:      none;
+  border-right:     none;
+  border-bottom:    none;
+}
+
+.VerticalLine {
+  border:           1px solid #b1c0d6;
+  border-right:     none;
+  border-bottom:    none;
+  border-top:       none;
+
+}
+
+.Login {
+  background-color:    white;
+  background-image:    url("azul/login.png");
+  background-repeat:   no-repeat;
+  background-position: bottom right;
+  color:               #3b3b3b;
+}
+
+.Menu {
+  background-color: #D8E7FC;
+  color:            #3b3b3b;
+}
+
+.Selected {
+  background-color: #0A246A;
+  color:            #FFFFFF;
+}
+
+.Window {
+  background-color: #FFFFFF;
+  color:            #3b3b3b;
+}
+
+.WindowFrame {
+  border:           1px solid #b1c0d6;
+  background-color: #deecfc;
+  color:            #3b3b3b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Calendário utilizado nos FormEdits
+ */
+
+.Calendar {
+  background-color: #ffffff;
+  border:           none;
+}
+
+.cpYearNavigation, .cpMonthNavigation {
+  text-align:       center;
+  vertical-align:   middle;
+  text-decoration:  none;
+  color:            #3b3b3b;
+  font-weight:      bold;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+  height:           20px;
+}
+
+TD.cpDayColumnHeader {
+  text-align:       right;
+  border:           1px solid #D0D0D0;
+  border-width:     0px 0px 1px 0px;
+  font-family:      tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:        8pt;
+}
+
+.cpCurrentMonthDate {
+  text-align:      right;
+  text-decoration: none;
+  font-family:     tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:       8pt;
+}
+
+.cpCurrentMonthDateDisabled, .cpOtherMonthDateDisabled, .cpCurrentDateDisabled {
+  color:           #D0D0D0;
+  text-align:      right;
+  text-decoration: line-through;
+  font-family:     tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:       8pt;
+}
+
+.cpCurrentDate {
+  color:           #b1c0d6;
+  font-weight:     bold;
+  text-align:      right;
+  text-decoration: none;
+  font-family:     tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:       8pt;
+}
+
+TD.cpCurrentDate {
+  color:            #FFFFFF;
+  background-color: #deecfc;
+  border-width:     1px;
+  border:           1px solid #b1c0d6;
+}
+
+.cpOtherMonthDate {
+  color: #808080;
+  text-align:      right;
+  text-decoration: none;
+  font-family:     tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:       8pt;
+}
+
+
+TD.cpCurrentDateDisabled {
+	border-width: 1px;
+	border: solid thin #FFAAAA;
+}
+
+TD.cpTodayText, TD.cpTodayTextDisabled {
+  border:       solid thin #D0D0D0;
+  border-width: 1px 0px 0px 0px;
+}
+
+A.cpTodayText, SPAN.cpTodayTextDisabled {
+	height: 20px;
+}
+
+SPAN.cpTodayTextDisabled {
+	color: #D0D0D0;
+}
+
+.cpBorder {
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+ * iobjects.ui.Chart
+ */
+
+Chart {
+  backgroundColor      : #deecfc;
+  alternateGridColor   : #e8f6ff;
+  gridLineColor        : #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * iobjects.ui.Balloon
+ */
+ 
+.Balloon {
+}
+ 
+.BalloonIcon {
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           10pt;
+}
+ 
+.BalloonCaption {
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           10pt;
+}
+ 
+.BalloonText {
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           10pt;
+}
+
+.BalloonExtra {
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           10pt;
+}
+
+
+
+
+
+
+
+
+/**
+ * iobjects.ui.Button
+ */
+
+.bigButton {
+  border:              1px solid #b1c0d6;
+  background-image:    url("azul/big_button.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              64px;
+}
+
+.bigButtonOver {
+  border:              1px solid #feb043;
+  background-image:    url("azul/big_button_over.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              64px;
+}
+
+.bigButtonSelected {
+  border:              1px solid #feb043;
+  background-image:    url("azul/big_button_selected.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              64px;
+}
+
+.bigButtonSelectedOver {
+  border:              1px solid #feb043;
+  background-image:    url("azul/big_button_over.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              64px;
+}
+
+.button {
+  border:              1px solid #b1c0d6;
+  background-image:    url("azul/button.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              24px;
+  width:               75px;
+}
+
+.buttonOver {
+  border:              1px solid #feb043;
+  background-image:    url("azul/button_over.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              24px;
+  width:               75px;
+}
+
+.buttonSelected {
+  border:              1px solid #feb043;
+  background-image:    url("azul/button_selected.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              24px;
+  width:               75px;
+}
+
+.buttonSelectedOver {
+  border:              1px solid #feb043;
+  background-image:    url("azul/button_over.png");
+  background-repeat:   repeat-x;
+  background-position: bottom left;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  height:              24px;
+  width:               75px;
+}
+
+.toolButton {
+  background-color:    #deecfc;
+  border:              none;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  color:               #3b3b3b;
+}
+
+.toolButtonDown {
+  border:              1px solid #feb043;
+  background-image:    url('azul/button_down.png');
+  background-position: bottom left;
+  background-repeat:   repeat-x;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  color:               #3b3b3b;
+}
+
+.toolButtonOver {
+  border:              1px solid #feb043;
+  background-image:    url('azul/button_over.png');
+  background-position: bottom left;
+  background-repeat:   repeat-x;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  color:               #3b3b3b;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+ * iobjects.ui.FlowChart
+ */
+
+.FlowChartPipeHorizontal {
+  background-image:    url("azul/pipe_horizontal.png");
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.FlowChartPipeHorizontalTDown {
+  background-image:    url("azul/pipe_horizontal_t_down.png");
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.FlowChartPipeVertical {
+  background-image:    url("azul/pipe_vertical.png");
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * iobjects.ui.FormSelectEx
+ */
+.FormSelectExPopup {
+  background-color: #FFFFFF;
+  border:           1px solid #b1c0d6;
+  color:            #3b3b3b;
+  cursor:           default;
+}
+
+.FormSelectExOption {
+  cursor:           default;
+}
+
+.FormSelectExOptionSelected {
+  background-color: #b1c0d6;
+  color:            #FFFFFF;
+  cursor:           default;
+}
+
+.FormSelectExPopupSearch {
+  background-color: #ffffc0;
+  border:           1px solid #b1c0d6;
+  color:            #3b3b3b;
+  cursor:           default;
+}
+
+
+
+
+
+/**
+ * iobjects.ui.Grid
+ */
+
+.Grid {
+  border:                1px solid #b1c0d6;
+  background-color:      transparent;
+}
+
+.GridHeader {
+  border-bottom:         1px solid #b1c0d6;
+  color:                 #3b3b3b;
+  font-weight:           normal;
+}
+
+.GridHeaderColumn {
+  border-right:          1px solid #b1c0d6;
+  padding-left:          4px;
+  padding-right:         4px;
+}
+
+.GridRowOdd {
+  background-color:      #ffffff;
+  color:                 #3b3b3b;
+}
+
+.GridRowEven {
+  background-color:      #eff6fd;
+  color:                 #3b3b3b;
+}
+
+.GridRowOver {
+  background-color:      #f9e4a3;
+  color:                 #3b3b3b;
+}
+
+.GridRowSelected {
+  background-color:      #fcecbe;
+  color:                 #3b3b3b;
+}
+
+.GridRowDeleted {
+  background-color:      #ff8888;
+  color:                 #3b3b3b;
+}
+
+.GridRowColumn {
+  border-bottom:        1px solid #deecfc;
+  border-right:         1px solid #deecfc;
+  padding:              2px;
+  padding-left:         4px;
+  padding-right:        4px;
+}
+
+.GridStatus {
+  border-top:            1px solid #b1c0d6;
+  color:                 #3b3b3b;
+  font-weight:           bold;
+}
+
+
+
+
+
+/**
+ * iobjects.ui.FrameBar
+ */
+
+.Frame {
+  color:                 #3b3b3b;
+}
+
+.FrameBar {
+  background-color:      #c6d9ef;
+  color:                 #FFFFFF;
+}
+
+.FrameBody {
+  border:                1px solid #b1c0d6;
+  border-top:            none;
+  background-color:      #deecfc;
+  color:                 #3b3b3b;
+}
+
+.FrameCaption {
+  border:                1px solid #b1c0d6;
+  background-color:      #deecfc;
+  color:                 #3b3b3b;
+  font-weight:           bold;
+}
+
+.FrameBarClientArea {
+  border:                1px solid #b1c0d6;
+  background-color:      #deecfc;
+  color:                 #3b3b3b;
+}
+
+.FrameBarHideNext {
+  display:               none;
+}
+
+.FrameBarShowMore {
+  background-color:      #e8f6ff;
+  cursor:                pointer;
+  padding:               4px;
+  text-align:            center;
+}
+
+.MainFrame {
+  color:                 #3b3b3b;
+}
+
+.MainFrameBody {
+  border:                1px solid #b1c0d6;
+  border-top:            none;
+  background-color:      #deecfc;
+  color:                 #3b3b3b;
+}
+
+.MainFrameCaption {
+  border:                1px solid #b1c0d6;
+  background-color:      #deecfc;
+  color:                 #3b3b3b;
+  font-weight:           bold;
+}
+
+
+
+
+/**
+ * iobjects.ui.PageControl
+ */
+
+.pagecontrolContainer {
+  border:              1px solid #b1c0d6;
+  padding:             4px;
+  vertical-align:      top;
+}
+
+.pagecontrolTabBar {
+}
+
+.pagecontrolTabPanelContainer {
+  clear:               both;
+  display:             none;
+  width:               100%;
+  height:              100%;
+}
+
+.pagecontrolTab {
+  border:              1px solid #b1c0d6;
+  background-image:    url("azul/button.png");
+  background-repeat:   repeat-x;
+  background-position: top left;
+  color:               #3b3b3b;
+  cursor:              default;
+  float:               left;
+  padding:             4px;
+  padding-left:        8px;
+  padding-right:       8px;
+  height:              16px;
+  text-align:          center;
+}
+
+.pagecontrolTabOver {
+  border:              1px solid #b1c0d6;
+  background-image:    url("azul/button_over.png");
+  background-repeat:   repeat-x;
+  background-position: top left;
+  color:               #3b3b3b;
+  cursor:              default;
+  float:               left;
+  padding:             4px;
+  padding-left:        8px;
+  padding-right:       8px;
+  height:              16px;
+  text-align:          center;
+}
+
+.pagecontrolTabSelected {
+  border:              1px solid #b1c0d6;
+  background-image:    url("azul/button_selected.png");
+  background-repeat:   repeat-x;
+  background-position: top left;
+  color:               #3b3b3b;
+  cursor:              default;
+  float:               left;
+  padding:             4px;
+  padding-left:        8px;
+  padding-right:       8px;
+  height:              16px;
+  text-align:          center;
+}
+
+
+
+
+
+/**
+ * iobjects.ui.PopupMenu
+ */
+
+.popupMenu {
+  border:                1px solid #b1c0d6;
+  background-color:      #deecfc;
+  color:                 #3b3b3b;
+}
+
+
+/**
+ * iobjects.ui.Ribbon
+ */
+
+.ribbonBigButton {
+  border:              none;
+  background:          none;
+  color:               #3b3b3b;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  text-align:          center;
+  padding:             1px;
+  text-align:          center; 
+  vertical-align:      top;
+}
+
+.ribbonBigButtonDown {
+  border:              1px solid #c2943c;
+  background-image:    url("azul/big_button_selected.png");
+  background-repeat:   repeat-x;
+  background-position: top left;
+  color:               #3b3b3b;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  padding:             0px;
+  text-align:          center; 
+  text-align:          center; 
+  vertical-align:      top;
+}
+
+.ribbonBigButtonOver {
+  border:              1px solid #f4d053;
+  background-image:    url("azul/big_button_over.png");
+  background-repeat:   repeat-x;
+  background-position: top left;
+  color:               #3b3b3b;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  padding:             0px;
+  text-align:          center; 
+  vertical-align:      top;
+}
+
+.ribbonToolButton {
+  border:              none;
+  background:          none;
+  color:               #3b3b3b;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  text-align:          center;
+  padding:             2px;
+  text-align:          left; 
+  vertical-align:      middle;
+}
+
+.ribbonToolButtonDown {
+  border:              1px solid #c2943c;
+  background-image:    url("azul/button_selected.png");
+  background-repeat:   repeat-x;
+  background-position: top left;
+  color:               #3b3b3b;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  padding:             1px;
+  text-align:          left; 
+  vertical-align:      middle;
+}
+
+.ribbonToolButtonOver {
+  border:              1px solid #f4d053;
+  background-image:    url("azul/button_over.png");
+  background-repeat:   repeat-x;
+  background-position: top left;
+  color:               #3b3b3b;
+  font-family:         tahoma, verdana, arial, helvetica, sans-serif;
+  font-size:           8pt;
+  padding:             1px;
+  text-align:          left; 
+  vertical-align:      middle;
+}
+
+.ribbonContainer {
+  background-image:  url('azul/ribbon_tab_container_background.png');
+  background-repeat: repeat-x;
+  padding:           0px;
+  padding-bottom:    0px;
+  height:            90px;
+  width:             100%;
+}
+
+.ribbonTabBar {
+  background-image:  url('azul/ribbon_tab_background.png');
+  background-repeat: repeat-x;
+  padding-left:      32px;
+  padding-right:     32px;
+  height:            28px;
+  width:             100%;
+}
+
+.ribbonTabPanelContainer {
+  clear:             both;
+  display:           none;
+  position:          absolute;
+}
+
+.ribbonTabPanel {
+  border:              none;
+  color:               #384e73;
+  cursor:              default;
+  float:               left;
+  height:              87px;
+}
+
+.ribbonTabPanelClient {
+  cursor:           default;
+  height:           66px;
+  padding:          2px;
+  padding-bottom:   0px;
+  vertical-align:   top;
+}
+
+.ribbonTabPanelDivisor {
+  background-image:    url('azul/ribbon_tab_panel_divisor.png');
+  background-repeat:   no-repeat;
+  background-position: bottom right;
+  float:               left;
+  width:               3px;
+  height:              87px;
+}
+
+
+.ribbonTabPanelTitle {
+  cursor:           default;
+  font-size:        9pt;
+  height:           18px;
+  text-align:       center;
+}
+
+.ribbonTab {
+  background-image:  url('azul/ribbon_tab_background.png');
+  background-repeat: repeat-x;
+  color:             #384e73;
+  cursor:            default;
+  float:             left;
+  padding:           8px;
+  padding-bottom:    0px;
+  padding-top:       7px;
+  height:            28px;
+}
+
+.ribbonTabOver {
+  background-image:  url('azul/ribbon_tab_over_background.png');
+  background-repeat: repeat-x;
+  color:             #384e73;
+  cursor:            default;
+  float:             left;
+  padding:           8px;
+  padding-bottom:    0px;
+  padding-top:       7px;
+  height:            28px;
+}
+
+.ribbonTabOverLeft {
+  background-image:  url('azul/ribbon_tab_over_left.png');
+  background-repeat: no-repeat;
+  cursor:            default;
+  float:             left;
+  height:            28px;
+  width:             4px;
+}
+
+.ribbonTabOverRight {
+  background-image:  url('azul/ribbon_tab_over_right.png');
+  background-repeat: no-repeat;
+  cursor:            default;
+  float:             left;
+  height:            28px;
+  width:             4px;
+}
+
+.ribbonTabSelected {
+  background-image:  url('azul/ribbon_tab_selected_background.png');
+  background-repeat: repeat-x;
+  color:             #384e73;
+  cursor:            default;
+  float:             left;
+  padding:           8px;
+  padding-bottom:    0px;
+  padding-top:       7px;
+  height:            28px;
+}
+
+.ribbonTabSelectedLeft {
+  background-image:  url('azul/ribbon_tab_selected_left.png');
+  background-repeat: no-repeat;
+  cursor:            default;
+  float:             left;
+  height:            28px;
+  width:             4px;
+}
+
+.ribbonTabSelectedRight {
+  background-image:  url('azul/ribbon_tab_selected_right.png');
+  background-repeat: no-repeat;
+  cursor:            default;
+  float:             left;
+  height:            28px;
+  width:             4px;
+}
+
+.ribbonTabSeparator {
+  cursor:            default;
+  float:             left;
+  height:            28px;
+  width:             4px;
+}
+
+
+
+
+
+
+/**
+ * iobjects.ui.treeview.TreeView
+ */
+
+.TreeView {
+  background-color:    #FFFFFF;
+}
+
+.TreeViewPanel {
+  background-color:    #FFFFFF;
+  border:              1px solid;
+  border-color:        #91A7B4;
+}
+
+
+
+
+
+/**
+ * Application Top
+ */
+
+.ApplicationTop {
+  background-color:    #c6d9ef;
+  color:               #FFFFFF;
+}
+
+.ApplicationTopBar {
+  color:               #ebf4ff;
+}
+
+.ApplicationTopBar:hover {
+  color:               #ebf4ff;
+}
+
+.ApplicationTopBarSeparator {
+  background-image:    url('azul/application_top_bar_separator.gif');
+  background-position: center center;
+  width:               6px;
+}
+
+.ApplicationTopHeader {
+  background-image:      url("azul/application_top_header.png");
+  background-position:   left top;
+  background-repeat:     repeat-x;
+  color:                 #FFFFFF;
+}
+
+.ApplicationTopHeaderSeparator {
+  background-image:      url("azul/application_top_header_separator.png");
+  background-position:   left top;
+  background-repeat:     repeat-x;
+}
+
+.ToolBar {
+  border:                1px solid #b1c0d6;
+  background-color:      #deecfc;
+  color:                 #3b3b3b;
+  font-weight:           bold;
+}
+
+
+
+
+
+
+
+/**
+ * Application ListView
+ */
+
+.ApplicationListView {
+  background-color: #deecfc;
+  color:            #3b3b3b;
+}
+
+.ApplicationListViewBody {
+  border:           1px solid #b1c0d6;
+  border-top:       none;
+  background-color: #deecfc;
+  color:            #3b3b3b;
+  font-weight:      normal;
+  padding:          0px;
+}
+
+.ApplicationListViewHeader {
+  border:                1px solid #b1c0d6;
+  background-image:      url("azul/frame_caption.gif");
+  background-position:   top left;
+  background-repeat:     repeat-x;
+  color:                 #3b3b3b;
+  font-weight:           bold;
+}
+
+.ApplicationListViewItem {
+  background-image:      url("azul/application_listview_item.png");
+  background-position:   top left;
+  background-repeat:     repeat-x;
+  border:                1px solid #b1c0d6;
+  border-top:            none;
+  color:                 #204d89;
+  text-decoration:       none;
+  font-weight:           normal;
+  padding-left:          4px;
+  padding-right:         4px;
+  height:                32px;
+  width:                 100%;
+  cursor:                default;
+}
+
+.ApplicationListViewItemHover {
+  background-image:      url("azul/application_listview_item_over.png");
+  background-position:   top left;
+  background-repeat:     repeat-x;
+  border:                1px solid #b1c0d6;
+  border-top:            none;
+  color:                 #204d89;
+  text-decoration:       none;
+  font-weight:           normal;
+  padding-left:          4px;
+  padding-right:         4px;
+  height:                32px;
+  width:                 100%;
+  cursor:                default;
+}
+
+.ApplicationListViewItemSelected {
+  background-image:      url("azul/application_listview_item_selected.png");
+  background-position:   top left;
+  background-repeat:     repeat-x;
+  border:                1px solid #b1c0d6;
+  border-top:            none;
+  color:                 #204d89;
+  text-decoration:       none;
+  font-weight:           normal;
+  padding-left:          4px;
+  padding-right:         4px;
+  height:                32px;
+  width:                 100%;
+  cursor:                default;
+}
+
+.ApplicationListViewItemSelectedHover {
+  background-image:      url("azul/application_listview_item_selected_over.png");
+  background-position:   top left;
+  background-repeat:     repeat-x;
+  border:                1px solid #b1c0d6;
+  border-top:            none;
+  color:                 #204d89;
+  text-decoration:       none;
+  font-weight:           normal;
+  padding-left:          4px;
+  padding-right:         4px;
+  height:                32px;
+  width:                 100%;
+  cursor:                default;
+}
+
+
+
+
+
+/**
+ * Application TreeView
+ */
+
+.ApplicationTreeView {
+  background-color: #c6d9ef;
+  color:            #3b3b3b;
+}
+
+.ApplicationTreeViewHeader {
+  background-color: #c6d9ef;
+  border-bottom:    2px solid #3b619c;
+  color:            #3b3b3b;
+  font-weight:      normal;
+  height:           19px;
+  padding-left:     3px;
+}
+
+
+
+
+
+/**
+ * Password
+ */
+
+.Password {
+  background-color:    #c6d9ef;
+  color:               #3b3b3b;
+}
+
+.PasswordHeader {
+  background-image:      url("azul/application_top_header.jpg");
+  background-position:   left top;
+  background-repeat:     repeat-x;
+  color:                 #FFFFFF;
+}

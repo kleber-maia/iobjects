@@ -1,0 +1,17 @@
+<masterrelation>
+  <information active="true"
+               classname="imanager.entity.Empresa"
+               tablename="global_empresa"
+               searchfieldnames=""
+               searchfieldtitles=""
+               searchfieldformats=""
+               displayfieldnames="va_nome"
+               displayfieldtitles="Nome"
+               displayfieldwidths="500"
+               returnfieldnames="in_empresa_id"
+               returnuserfieldnames="va_nome"
+               orderfieldnames="va_nome"
+               filterexpression="sm_arquivo = 0"
+               caption="Empresa"
+               description="Selecione..." />
+</masterrelation>

@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!--
+  Exemplo da tag de informaç?es de versão.
+
+<release label="1.0" date="30/06/2006" emphasize="10/07/2006">
+  <change actionname="produto">
+    Incluído o campo Custo Médio do Produto.
+  </change>
+</release>
+-->
+<releasenotes> 
+  
+  <release label="2013.1" date="18/02/2013" emphasize="23/02/2020">
+    <change actionname="biCartaoAnaliseDesempenhoSemestral">
+        {li}Criado o cartão de análise de desempenho.
+    </change>
+    <change actionname="biCartaoAnaliseIndicadores">
+        {li}Criado o cartão de análise de indicadores.
+    </change>
+    <change actionname="biCartaoRealizacaoMeta">
+        {li}Criado o cartão de realização de meta.
+    </change>
+    <change actionname="cockpit">
+        {li}Criado o cockpit empresarial.
+    </change>
+    <change actionname="biConfiguracao">
+        {li}Criado o processo de configuração.
+    </change>
+    <change actionname="biAnaliseDesempenho">
+        {li}Criado o relatório de análise de desempenho.
+    </change>
+    <change actionname="biAnaliseRede">
+        {li}Criado o relatório de análise de rede.
+    </change>
+    <change actionname="entregaSaida">
+      {li}Corrigido o erro que impedia a entrega em Saídas com produtos duplicados a partir de outra empresa.
+    </change>    
+  </release>       
+    
+  <release label="2012.13" date="08/01/2013" emphasize="13/01/2013">
+    <change actionname="importacaoPreco">
+      {li}Implementada compatibilidade com o layout de tabela de preço lançado pela Ortobom no início de 2013.
+    </change>            
+  </release>     
+  
+  <release label="2012.12" date="27/11/2012" emphasize="29/11/2012">
+    <change actionname="relatorioAnaliseCaixa">
+      {li}Retirado as informações sobre Abertura e Fechamento de caixa.
+    </change>            
+    <change actionname="relatorioAnaliseMensalFinanceira">
+      {li}Retirado as informações sobre Abertura e Fechamento de caixa.
+    </change>                
+    <change actionname="relatorioApuracaoComissao">
+      {li}Resolvido o problema de produtos repetidos em todos os vendedores ao incluir ID's/Pedidos.
+    </change>                    
+  </release>     
+  
+  <release label="2012.11" date="26/10/2012" emphasize="31/10/2012">
+    <change actionname="fechamentoCaixa">
+      {li}Agora é possível vizualizar os detalhes das Saídas do caixa.
+    </change>            
+    <change actionname="apuracaoDeVendas">
+      {li}Adicionado Relatório com os detalhes das vendas de um determinado período.
+    </change>                
+  </release>     
+  
+  <release label="2012.10" date="24/10/2012" emphasize="30/10/2012">
+    <change actionname="importacaoNfe">
+      {li}Corrigido o erro que impedia a importação de NF-e sem duplicata.
+    </change>            
+    <change actionname="relatorioRankingVendedor">
+      {li}Adicionada informações valiosas, permitindo comparação entre os vendedores.
+      {li}Criado o relatório de detalhe do vendedor com informações de desempenhos dos últimos seis meses.
+    </change>                
+  </release>   
+  
+  <release label="2012.9" date="15/10/2012" emphasize="20/10/2012">
+    <change actionname="importacaoNfe">
+      {li}Agora é possível importar NF-e que contenham produtos repetidos.
+    </change>
+    <change actionname="entrada">
+      {li}Agora é possível inserir Produtos repetidos na mesma Entrada.
+    </change>    
+    <change actionname="saida">
+      {li}Agora é possível esconder os valores da Saída para usuários não autorizados.
+    </change>        
+    <change actionname="servicoPedido">
+      {li}Agora é possível esconder os valores do Pedido para usuários não autorizados.
+    </change>            
+  </release> 
+
+  <release label="2012.8" date="10/10/2012" emphasize="15/10/2012">
+    <change actionname="malaDireta">
+      {li}Agora é possível gerar etiquetas para serem impressas diretamente apartir do processo de Mala Direta.
+    </change>
+    <change actionname="contato">
+      {li}Agora é possível gerar etiquetas para serem impressas diretamente apartir do processo de Mala Direta.
+    </change>    
+  </release>  
+
+  <release label="2012.7" date="12/09/2012" emphasize="18/09/2012">
+    <change actionname="produto">
+      {li}Agora é possível informar o Preço À Vista, A Prazo e de Custo ao incluir um produto.
+    </change>
+  </release>  
+      
+  <release label="2012.6" date="10/09/2012" emphasize="14/09/2012">
+    <change actionname="relatorioAnaliseVenda">
+      {li}Adicionado o parâmetro Usuário Carteira.
+      {li}Adicionado o parâmetro Tipo Carteira.
+    </change>
+    <change actionname="relatorioAnaliseServico">
+      {li}Adicionado o parâmetro Usuário Carteira.
+      {li}Adicionado o parâmetro Tipo Carteira.
+    </change>
+    <change actionname="grupoContato">
+      {li}Realizadas melhorias na interface.
+    </change>
+  </release>
+  
+  <release label="2012.5" date="06/08/2012" emphasize="12/08/2012">
+    <change actionname="relatorioRankingVendedor">
+      {li}Criado o Relatório de Ranking de Vendedor.
+    </change>
+    <change actionname="relatorioRankingIndicante">
+      {li}Criado o Relatório de Ranking de Indicante.
+    </change>
+    <change actionname="relatorioRankingIndicante">
+      {li}Criado o Relatório de Ranking de Indicante.
+    </change>
+    <change actionname="relatorioFaturaCobranca">
+      {li}Criado o Relatório de Fatura de Cobrança.
+    </change>
+    <change actionname="relatorioAnaliseMensalFinanceira">
+      {li}Criado o Relatório de Análise Mensal Financeira.
+    </change>
+  </release>
+    
+  <release label="2012.4" date="17/07/2012" emphasize="22/07/2012">
+    <change actionname="agendaEntrega">
+      {li}Criado o Relatório de Agenda de Entrega.
+    </change>
+    <change actionname="ajusteConfiguracaoFiscal">
+      {li}Criado o processo de Ajuste de Configuração Fiscal.
+    </change>
+    <change actionname="cartaoAnaliseDiaria">
+      {li}Adicionado ao Gráfico a Rentabilidade Média ou a Comissão da empresa, conforme o caso.
+      {li}Adicionado o totalizador com a média aritmética das colunas informativas.
+    </change>    
+    <change actionname="cartaoAnaliseMensalFinanceira">
+      {li}Adicionado o totalizador com a média aritmética das colunas informativas.
+    </change>
+    <change actionname="cartaoMetaVendedor">
+      {li}Adicionado ao gráfico o valor da Comissão do Vendedor no período.
+      {li}Adicionada a coluna informativa com o percentual realizado na Meta.
+      {li}Adicionado o totalizador com a média aritmética das colunas informativas.
+    </change>        
+    <change actionname="cartaoDisputaAtendimentoVendedor">
+      {li}Adicionado ao gráfico a quantidade de itens vendidos por Vendedor.
+      {li}Adicionada a coluna informativa com o percentual de conversão de Atendimentos em Vendas.
+      {li}Adicionado o totalizador com a média aritmética das colunas informativas.
+    </change>     
+    <change actionname="copiarTabelaPreco">
+      {li}Agora as Tabelas de Preço copiadas são sempre referenciadas as tabelas de origem.
+    </change>
+    <change actionname="criarTabelaPreco">
+      {li}Criado o processo de Criação de Tabela de Preço para criação de uma nova Tabela de Preço com base nos Custos dos Produtos.
+    </change>       
+    <change actionname="cofins">
+      {li}Realizadas melhorias na interface.
+    </change>
+    <change actionname="configuracaoFiscal">
+      {li}Criado o cadastro de Configuração Fiscal para tornar muito mais flex?vel a configuração dos impostos sobre os Produtos.
+    </change>
+    <change actionname="entrada">
+      {li}Agora é possível informar as duplicatas de uma Entrada no ato do seu Faturamento.
+      {li}Adicionado o comando para o processo de Gerar NF-e.
+      {li}Criação da guia Pagamentos com a lista de duplicatas pagas e a pagar.      
+      {li}Adicionados os campos ICMS (%) e CST aos produtos.
+    </change>
+    <change actionname="formaPagamento">
+      {li}Adicionado o novo meio de pagamento Convênio.
+      {li}Agora é possível informar o nome e o CNPJ do convênio pagador.
+      {li}Agora é possível definir se uma Forma de Pagamento gera ou não comissão.
+      {li}Agora é possível definir o valor da tarifa e/ou taxa (%) de desconto cobrado pela Administradora de cartão ou convênio.
+      {li}Agora é possível definir o prazo ou o período de pagamento pela Administradora de cartão ou convênio.
+    </change>    
+    <change actionname="gerarNfe">
+      {li}Criado o processo de Gerar NF-e.
+      {li}O processo gera um arquivo texto para ser importado pelo sistema da receita federal.
+      {li}É possível gerar uma nota fiscal eletrônica a partir de uma Entrada ou Saída.
+    </change>
+    <change actionname="icms">
+      {li}Realizadas melhorias na interface.
+    </change>
+    <change actionname="importacaoNfe">
+      {li}Agora é possível importar automaticamente as duplicatas contidas na NF-e.
+    </change>
+    <change actionname="lancamento">
+      {li}Adicionada a coluna Anotações na tela de consulta.
+    </change>    
+    <change actionname="mudarStatusComissaoSaida">
+      {li}Criado o processo de Mudar Status de Comissão.
+    </change>
+    <change actionname="pis">
+      {li}Realizadas melhorias na interface.
+    </change>
+    <change actionname="produto">
+      {li}Adicionado comando para o processo de Ajuste de Configuração Fiscal.
+      {li}Adicionado o campo Configuração Fiscal para definição dos impostos sobre o Produto.
+    </change>
+    <change actionname="relatorioAnaliseVenda">
+      {li}Adicionado ao gráfico a Rentabilidade Média ou a Comissão da empresa, conforme o caso.
+      {li}Adicionada a coluna Rentabilidade Média ou a Comissão da empresa, conforme o caso.
+    </change>
+    <change actionname="relatorioApuracaoComissao">
+      {li}Criado o comando para o processo de Mudar Status de Comissão.
+    </change>
+    <change actionname="saida">
+      {li}Adicionado o comando para o processo de Gerar NF-e.
+    </change>    
+    <change actionname="saidaProduto">
+      {li}Adicionado o campo CFOP.
+    </change>
+    <change actionname="tabelaPreco">
+      {li}Adicionado comando para o processo de Criação de Tabela de Preço.
+      {li}Agora é possível criar Tabelas de Preço referenciadas a outras tabelas existentes.
+    </change>
+    <change actionname="tarefa">
+      {li}Adicionado a coluna Anotações na tela de consulta.
+    </change>    
+    <change actionname="tipoOperacao">
+      {li}Adicionado o campo Consumo/Revenda.
+    </change>
+    <change actionname="titulo">
+      {li}Adicionado a coluna Anotações na tela de consulta.
+    </change>
+  </release>
+  
+  <release label="2012.3" date="25/04/2012" emphasize="25/04/2012">
+    <change actionname="consultaPreco">
+      {li}Criação do novo processo que agiliza a consulta de preços de Produtos.
+    </change>
+  </release>
+  
+  <release label="2012.2" date="16/04/2012" emphasize="21/04/2012">
+    <change actionname="importacaoNfe">
+      {li}Criação do novo processo que permite importar uma NF-e como uma Entrada de mercadoria.
+      {li}É possível incluir automaticamente o Fornecedor e os Produtos ainda não cadastrados.
+      {li}É possível associar os Produtos já cadastrados ao Fornecedor para as próximas importações.
+    </change>
+  </release>
+  
+  <release label="2012.1" date="23/02/2012" emphasize="29/02/2012">
+    <change actionname="contato">
+      {li}Criação da nova base nacional de endereços atualizada em 2011.
+      {li}As consultas ao endereço através do CEP agora são mais rápidas, confiáveis e preenchem também o código do município.
+    </change>
+    <change actionname="cadastroCliente">
+      {li}Criação da nova base nacional de endereços atualizada em 2011.
+      {li}As consultas ao endereço através do CEP agora são mais rápidas, confiáveis e preenchem também o código do município.
+    </change>
+    <change actionname="tabelaPreco">
+      {li}Criados os campos Limite Parcelas e Desconto Máximo (%).
+    </change>
+    <change actionname="configuracaoFaturamento">
+      {li}Adicionado parâmetro para configuração do dia de início do ciclo de vendas mensal.
+    </change>
+    <change actionname="cartaoDisputaVendedor">
+      {li}Agora as informações exibidas levam em consideração a configuração do dia de início do ciclo de vendas mensal.
+    </change>
+    <change actionname="cartaoMetaVendedor">
+      {li}Agora as informações exibidas levam em consideração a configuração do dia de início do ciclo de vendas mensal.
+    </change>
+    <change actionname="saida">
+      {li}Ao alterar a Tabela de Preço, recalcula o Desconto (%) dos produtos com base no Desconto Máximo (%) da nova Tabela de Preço.
+      {li}Ao calcular o Desconto (%) do produto, não é mais permitido exceder o Desconto Máximo (%) definido na Tabela de Preço selecionada.
+      {li}Foram alterados a ordem e os cálculos dos campos de Quantidade, Preço, Valor e Valor Total dos produtos para se adequar ao PAF.
+      {li}Corrigido defeito que exibia uma mensagem de erro ao tentar incluir um Produto que não possuía preço na Tabela de Preço selecionada.
+    </change>
+    <change actionname="saidaProduto">
+      {li}Ao calcular o Desconto (%) do produto, não é permitido exceder o Desconto Máximo (%) definido na Tabela de Preço selecionada.
+      {li}Foram alterados a ordem e os cálculos dos campos de Quantidade, Preço, Valor e Valor Total dos produtos para se adequar ao PAF.
+      {li}Corrigido defeito que exibia uma mensagem de erro ao tentar incluir um Produto que não possuía preço na Tabela de Preço selecionada.
+    </change>
+    <change actionname="faturamentoSaida">
+      {li}Ao inserir uma Forma de Pagamento, não é permitido exceder o Limite Parcelas definido na Tabela de Preço selecionada.
+    </change>
+    <change actionname="importacaoTabelaPreco">
+      {li}Ao inserir as Tabelas de Preço importadas, são calculados automaticamente o Limite Parcelas e o Desconto Máximo (%).
+    </change>
+    <change actionname="relatorioRankingProduto">
+      {li}Criado gráfico para exibição da Curva ABC de produtos.
+      {li}Criado atalho para exibição das Saídas que contém cada produto exibido no ranking.
+    </change>
+  </release>
+    
+  <release label="2012" date="01/12/2011" emphasize="11/12/2011">
+    <change actionname="produto">
+      {li}Adicionado campo Situação Tributária.
+      {li}Adicionado campo Situação Tributária ICMS.
+      {li}Adicionado campo Situação Tributária COFINS.
+      {li}Adicionado campo Situação Tributária PIS.
+      {li}Adicionado campo NCM.
+    </change>
+    <change actionname="ajusteSituacaoTributariaNfe">
+      {li}Criado processo de Ajuste Situação Tributária NF-e.
+    </change>
+    <change actionname="ajusteSituacaoTributariaPaf">
+      {li}Criado processo de Ajuste Situação Tributária Paf.
+    </change>
+    <change actionname="copiarTabelaPreco">
+      {li}Criado processo de Copiar Tabela de Preço.
+    </change>
+    <change actionname="relatorioEstoque">
+      {li}Adicionado parâmetro de pesquisa Em ponto de pedido.
+      {li}Adicionado parâmetro de pesquisa Disponíveis.
+    </change>
+    <change actionname="saida">
+      {li}Adicionado parâmetro de pesquisa Tipo Operação.
+      {li}Criada aba com as Formas de Pagamento.
+    </change>
+    <change actionname="situacaoTributaria">
+      {li}Criado cadastro de Situação Tributária.
+    </change>
+    <change actionname="situacaoTributariaCofins">
+      {li}Criado cadastro de Situação Tributária COFINS.
+    </change>
+    <change actionname="situacaoTributariaIcms">
+      {li}Criado cadastro de Situação Tributária ICMS.
+    </change>
+    <change actionname="situacaoTributariaPis">
+      {li}Criado cadastro de Situação Tributária PIS.
+    </change>
+    <change actionname="copiarSaida">
+      {li}Criado processo de copiar Saída.
+    </change>
+    <change actionname="relatorioPedidoSaida">
+      {li}Adicionado campos de Endereço do contato.
+    </change>
+    <change actionname="configuracaoFaturamento">
+      {li}Adicionado parâmetro Estoque Negativo.
+    </change>
+    <change actionname="empresa">
+      {li}Adicionado campo de Série do Documento.
+      {li}Adicionado campo de Número do Documento Fiscal.
+      {li}Adicionado campo de Código do Município.
+      {li}Adicionado campo de Identificação do Ambiente.
+    </change>
+    <change actionname="titulo">
+      {li}Adicionado campo Administradora.
+      {li}Adicionado parâmetro de pesquisa Administradora.
+    </change>
+    <change actionname="lancamento">
+      {li}Criado campo Vencimento.
+    </change>
+    <change actionname="aberturaCaixa">
+      {li}Melhoria no processo de Abertura de Caixa.
+    </change>
+    <change actionname="ajusteSituacaoTributariaNfe">
+      {li}Criado processo de Ajuste Situação Tributária NF-e.
+    </change>
+    <change actionname="relatorioFluxoCaixa">
+      {li}Adicionado filtro Administradora.
+    </change>
+    <change actionname="contato">
+      {li}Adicionado parâmetro de pesquisa Cidade.
+      {li}Adicionado campo de Cód. Município.
+    </change>
+  </release>
+  
+  <release label="2011" date="19/07/2011" emphasize="29/07/2011">
+    <change actionname="produto">
+      {li}Adicionado campo Comissão Indicante.
+    </change>
+    <change actionname="saida">
+      {li}Adicionado campo Comissão Indicante.
+    </change>
+    <change actionname="tipoOperacao">
+      {li}Adicionado campo Comissão Indicante.
+    </change>
+    <change actionname="configuracaoFaturamento">
+      {li}Adicionado parâmetro Indicante.
+      {li}Adicionado parâmetro Gera Comissão Indicante.
+      {li}Adicionado parâmetro Categoria Comissão Indicante.
+    </change>
+    <change actionname="faturamentoSaida">
+      {li}Calcula a comissão do indicante.
+    </change>
+    <change actionname="cancelamentoSaida">
+      {li}Estorna a comissão do indicante.
+    </change>
+    <change actionname="relatorioApuracaoIndicacao">
+      {li}Criado o relatório de Apuração de Indicação.
+    </change>
+    <change actionname="titulo">
+      {li}Adicionado parâmetro de pesquisa Cheque.
+    </change>
+    <change actionname="cartaoFluxoCaixa">
+      {li}Criado cartão de Fluxo de Caixa.
+    </change>
+    <change actionname="contato">
+      {li}Adicionado campo Comissão Indicante.
+      {li}Adicionado parâmetro de pesquisa Bairro.
+    </change>
+    <change actionname="agendaFeriado">
+      {li}Criado cadastro de Agenda Feriado.
+    </change>
+    <change actionname="relatorioAgendaSemanal">
+      {li}Criado relatório de Agenda Semanal.
+    </change>
+    <change actionname="pulaRecorrência">
+      {li}Agora o processo de Pular Recorrência permite pular mais de um registro ao mesmo tempo.
+    </change>
+  </release>
+  
+  <release label="2011" date="19/04/2011" emphasize="29/04/2011">
+    <change actionname="relatorioKardex">
+      {li}Criado o Relatório Kardex.
+    </change>
+    <change actionname="produto">
+      {li}Adicionado campo Número de Série.
+    </change>
+    <change actionname="saida">
+      {li}Adicionado parâmetro de pesquisa Número de Série.
+      {li}Adicionado campo de Número de Série caso o produto seja controlado por Número de Série.
+      [li]Adicionado campo Número de Série.
+    </change>
+    <change actionname="saidaProduto">
+      {li}Adicionado campo de Número de Série caso o produto seja controlado por Número de Série.
+    </change>
+    <change actionname="saidaProdutoEntrega">
+      [li]Adicionado campo Número de Série.
+    </change>
+    <change actionname="configuracaoFaturamento">
+      {li}Adicionado parâmetro Lançamento Caixa.
+    </change>
+    <change actionname="cancelamentoSaida">
+      {li}Adicionado coluna com o Número de Série do Produto da Saída.
+    </change>
+    <change actionname="devolucaoSaida">
+      {li}Adicionado coluna com o Número de Série do Produto da Saída.
+    </change>
+    <change actionname="entregaSaida">
+      {li}Adicionado coluna com o Número de Série do Produto da Saída.
+    </change>
+    <change actionname="faturamentoSaida">
+      {li}Adicionado parâmetro Caixa quando a Configuração da Saída é Lançamento Caixa.
+    </change>
+    <change actionname="relatorioEntregaRealizada">
+      {li}Adicionado link na Saída ID para a Saída.
+      {li}Adicionado coluna com o Número de Série do Produto da Saída.
+    </change>
+    <change actionname="relatorioRoteiroEntrega">
+      {li}Adicionado link na Saída ID para a Saída.
+      {li}Adicionado coluna com o Número de Série do Produto da Saída.
+    </change>
+    <change actionname="lancamento">
+      {li}Contas do Tipo Caixa não poderão mais excluir ou editar.
+      {li}Adicionado Processo de Abertura de Caixa.
+      {li}Adicionado Processo de Fechamento de Caixa.
+    </change>
+    <change actionname="aberturaCaixa">
+      {li}Adicionado Processo de Abertura de Caixa.
+    </change>
+    <change actionname="fechamentoCaixa">
+      {li}Adicionado Processo de Fechamento de Caixa.
+    </change>
+    <change actionname="cartaoAnaliseMensalFinanceira">
+      {li}Criado cartão de Análise de Venda Mensal Financeira.
+    </change>
+    <change actionname="cartaoAcompanhamentoCategoria">
+      {li}Criado cartão de Acompanhamento por Categoria.
+    </change>
+    <change actionname="pularRecorrencia">
+      {li}Criado processo de Pular Recorrência.
+    </change>
+    <change actionname="configuracaoFinanceiro">
+      {li}Adicionado parâmetros com as Categorias que serão olhadas de perto.
+    </change>
+    <change actionname="relatorioPosVenda">
+      {li}Adicionado link para mostrar as anotaç?es do Pós-Venda da Saída.
+    </change>
+    <change actionname="agendaHorario">
+      {li}Adicionado Relatório de Histórico Contato.
+    </change>
+    <change actionname="relatorioHistoricoContato">
+      {li}Adicionado área com os agendamentos.
+    </change>
+  </release>
+  
+  
+  
+  <release label="2011" date="19/04/2011" emphasize="29/04/2011">
+    <change actionname="agenda">
+      {li}Criado o cadastro de Agenda.
+    </change>
+    <change actionname="agendahorario">
+      {li}Criado o cadastro de Agenda Horário.
+    </change>
+    <change actionname="formaPagamento">
+      {li}Criado os campos de Forma, Administradora, Dias Recebimento em Forma de Pagamento.
+    </change>
+    <change actionname="reposicao">
+      {li}Criado o cartão com as Reposiç?es em atraso e com previsão para os próximos 7 dias.
+    </change>
+    <change actionname="saida">
+      {li}Criado o Processo de Estorno de Entrega.
+      {li}Incluído na aba de Entregas as colunas de Data Hora e Usuário.
+      {li}Aumento na segurança nos processos de Faturar, Entregar, Cancelar e Devolver.
+    </change>
+    <change actionname="entrada">
+      {li}Aumento na segurança nos processos de Faturar e Cancelar.
+    </change>
+    <change actionname="lancamento">
+      {li}Criado parâmetro e modificada interface para permitir a transferência entre Contas não arquivadas de Empresas diferentes.
+    </change>
+    <change actionname="relatorioExtrato">
+      {li}Criado o relatório de Extrato.
+    </change>
+    <change actionname="contato">
+      {li}Adicionado parâmetro de pesquisa por e-mail, telefone e bairro tanto o e-mail e o telefone informado podem ser parciais.
+    </change>
+    <change actionname="analiseCaixa">
+      {li}Adicionada coluna Conta de Lançamento.
+      {li}Incluído saldo das Contas.
+      {li}Lançamentos com a mesma categoria só aparecerão uma vez só com seu total.
+    </change>
+    <change actionname="oportunidade">
+      {li}Criado o cadastro de Oportunidade.
+    </change>
+    <change actionname="cartaoOportunidadeUsuario">
+      {li}Criado o cartão de Oportunidades por Usuário.
+    </change>
+    <change actionname="cartaoOportunidadeAcompanhamento">
+      {li}Criado o cartão de Oportunidades para Acompanhamento.
+    </change>
+    <change actionname="cartaoFunilOportunidade">
+      {li}Criado o cartão de Funil de Oportunidades.
+    </change>
+    <change actionname="relatorioRankingopOrtunidadeCampanha">
+      {li}Criado o relatório de Ranking de Oportunidade por Campanha.
+    </change>
+    <change actionname="relatorioRankingopOrtunidadeUsuario">
+      {li}Criado o relatório de Ranking de Oportunidade por Usuário.
+    </change>
+    <change actionname="relatorioFunilOportunidade">
+      {li}Criado o relatório de Funil de Oportunidades.
+    </change>
+    <change actionname="assunto">
+      {li}Criado o cadastro de Assunto.
+    </change>
+    <change actionname="campanha">
+      {li}Criado o cadastro de Campanha.
+    </change>
+    <change actionname="atendimento">
+      {li}Adicionado campo de Campanha, Link Externo.
+    </change>
+    <change actionname="atendimentoCampanha">
+      {li}Criado o cartão de Atendimentos por Campanha.
+    </change>
+    <change actionname="relatorioRankingAtendimentoAssunto">
+      {li}Criado o relatório de Ranking de Atendimento por Assunto.
+    </change>
+    <change actionname="relatorioRankingAtendimentoUsuario">
+      {li}Criado o relatório de Ranking de Atendimento por Usuário.
+    </change>
+    <change actionname="relatorioRankingAtendimentoCampanha">
+      {li}Criado o relatório de Ranking de Atendimento por Campanha.
+    </change>
+    <change actionname="fase">
+      {li}Criado o cadastro de Fase.
+    </change>
+    <change actionname="atendimentoFrequente">
+      {li}Criado o cadastro de Atendimento Frequente.
+    </change>
+    <change actionname="tarefa">
+      {li}Adicionado os campos de Prazo Original e Link Externo.
+      {li}Habilitado o comando de encaminhamento também para o usuário com direito administrativo.
+    </change>
+    <change actionname="tarefa">
+      {li}Adicionado os campos de Prazo Original e Link Externo.
+      {li}Habilitado o comando de encaminhamento também para o usuário com direito administrativo.
+    </change>
+    <change actionname="cartaoTarefaStatus">
+      {li}Criado o cartão de Tarefas por Status.
+    </change>
+    <change actionname="relatorioTarefaAssunto">
+      {li}Criado o relatório de Tarefas por Assunto.
+    </change>
+    <change actionname="relatorioTarefaUsuario">
+      {li}Criado o relatório de Tarefas por Usuário.
+    </change>
+    <change actionname="relatorioTarefaDepartamento">
+      {li}Criado o relatório de Tarefas por Departamento.
+    </change>
+    <change actionname="centralatendimento">
+      {li}Criado o processo de Central de Atendimento.
+    </change>
+  </release>
+
+  <release label="2010.7" date="15/11/2010" emphasize="22/11/2010">
+    <change actionname="analiseDiaria">
+      {li}Alterada a forma de exibição das datas para Dia, DD.
+    </change>
+    <change actionname="saidaProdutoEntrega">
+      {li}Criado o Cadastro de Entregas de Produtos mantendo todos os registros de entregas de uma saída.
+    </change>
+    <change actionname="saida">
+      {li}Criado o Cadastro de Entregas de Produtos mantendo todos os registros de entregas de uma saída.
+    </change>
+    <change actionname="roteiroEntrega">
+      {li}Criado parâmetro para inclusão de uma ou mais Saídas ao relatório.
+      {li}Criado parâmetro para exclusão de uma ou mais Saídas do relatório.
+      {li}Criada seção contendo resumo de todos os produtos a serem entregues contidos no relatório.
+    </change>
+    <change actionname="entregaRealizada">
+      {li}Criado o relatório de Entregas Realizadas.
+    </change>
+    <change actionname="apuracaoComissao">
+      {li}Criado parâmetro para inclusão de uma ou mais Saídas ao relatório.
+      {li}Criado parâmetro para exclusão de uma ou mais Saídas do relatório.
+    </change>
+    <change actionname="titulo">
+      {li}Criado campo Arquivo possibilitando arquivar Títulos.
+    </change>
+    <change actionname="analiseCaixa">
+      {li}Criada seção contendo todos os lançamentos realizados no mês/ano informaod.
+    </change>
+    <change actionname="fluxoCaixa">
+      {li}Criado parâmetro para inclusão ou não de Títulos arquivados ao relatório.
+      {li}Adicionada a coluna ID do Título ao relatório.
+      {li}Agora as recorrências dos Títulos são marcadas com um * ao lado do seu ID.
+      {li}Criado parâmetro Data Inicial possibilitando ignorar Títulos anteriores a uma determinada data.
+    </change>
+    <change actionname="entregaSaida">
+      {li}Criado parâmetro Data Entrega possibilitando registrar as entregas realizadas na data informada.
+    </change>
+    <change actionname="ajusteEstoque">
+      {li}Habilitada coluna Quantidade Reservada possibilitando o ajuste de seus valores.
+    </change>
+  </release>
+
+  <release label="2010.6" date="24/10/2010" emphasize="26/10/2010">
+    <change actionname="saida">
+      {li}Adicionados os campos Avaliação Atendimento, Avaliação Entrega e Avalição Produto.
+    </change>
+    <change actionname="avaliacaoPosVenda">
+      {li}Criado o cartão de Avaliação de Pós-Venda.
+    </change>
+    <change actionname="analisePosVenda">
+      {li}Criado o relatório de Análise de Pós-Venda.
+    </change>
+  </release>
+
+  <release label="2010.5" date="06/09/2010" emphasize="10/09/2010">
+    <change actionname="contato">
+      {li}Adicionada segurança para permissão de alteração do Nome.
+    </change>
+    <change actionname="saida">
+      {li}Adicionada segurança para permissão de alteração do Cliente.
+      {li}Adicionada segurança para permissão de alteração do Vendedor.
+    </change>
+    <change actionname="analiseVenda">
+      {li}Criado relatório de Análise de Vendas.
+    </change>
+    <change actionname="analiseDiaria">
+      {li}Criado o cartão de Análise Diária de vendas.
+    </change>
+  </release>
+
+
+  <release label="2010.4" date="17/08/2010" emphasize="18/08/2010">
+    <change actionname="entrega">
+      {li}Dada maior ênfase aos produtos que já foram totalmente entregues.
+    </change>
+    <change actionname="posicaoEstoque">
+      {li}Adicionados os campos ID e N? Pedido a lista de entregas do produto.
+      {li}Criado link para a Saída relacionada a cada entrega.
+    </change>
+    <change actionname="entregaSaida">
+      {li}Corrigido defeito que agendava pós-venda para todas as Saídas, mesmo não se tratando de uma venda.
+    </change>
+    <change actionname="contatoAniversariante">
+      {li}Agora somente os contatos do tipo pessoa física e aniversariando nos próximos 2 dias são exibidos.
+    </change>
+    <change actionname="entregaSaida">
+      {li}Corrigido defeito que impedia a entrega parcial de produtos a partir de uma outra empresa.
+    </change>
+  </release>
+
+  <release label="2010.3" date="20/06/2010" emphasize="25/06/2010">
+    <change actionname="ajusteComissao">
+      {li}Criado processo para realizar ajuste em lote dos percentuais de comissão da empresa e do vendedor no cadastro de produtos.
+    </change>
+    <change actionname="produto">
+      {li}Criado processo para realizar ajuste em lote dos percentuais de comissão da empresa e do vendedor no cadastro de produtos.
+    </change>
+    <change actionname="configuracaoSaida">
+      {li}Criada opção para agendamento automático do pós-venda após a entrega total da saída.
+    </change>
+    <change actionname="rankingProduto">
+      {li}Adicionados os parâmetros Vendedor e Status, possibilitando a obtenção de informaç?es valiosas sobre vendas realizadas e o potencial de vendas da empresa 
+
+e/ou vendedores.
+    </change>
+    <change actionname="saida">
+      {li}Realizadas alteraç?es estruturais para permitir que o mesmo produto seja inserido mais de uma vez na mesma saída.
+    </change>
+  </release>
+
+  <release label="2010.2" date="30/05/2010" emphasize="06/06/2010">
+    <change actionname="historicoContato">
+      {li}Criado o relatório de Histórico de Contato.
+    </change>
+    <change actionname="contato">
+      {li}Criado o relatório de Histórico de Contato.
+    </change>
+    <change actionname="entregaSaida">
+      {li}Adicionada funcionalidade para entrega dos produtos a partir de uma empresa diferente.
+    </change>
+    <change actionname="saida">
+      {li}Adicionada funcionalidade para entrega dos produtos a partir de uma empresa diferente.
+    </change>
+    <change actionname="baixaReposicao">
+      {li}Adicionada funcionalidade para entrada automática dos produtos repostos em qualquer empresa.
+    </change>
+    <change actionname="produtoReposicao">
+      {li}Adicionada funcionalidade para entrada automática dos produtos repostos em qualquer empresa.
+    </change>
+    <change actionname="estoque">
+      {li}Adicionada a coluna de quantidade de reposiç?es.
+    </change>
+    <change actionname="apuracaoComissao">
+      {li}Adicionada a lista de pedidos de cada vendedor.
+    </change>
+    <change actionname="quitacaoTitulo">
+      {li}Corrigido defeito que considerava uma recorrência a mais nos títulos recorrentes.
+    </change>
+    <change actionname="fluxoCaixa">
+      {li}Corrigido defeito que considerava uma recorrência a mais nos títulos recorrentes.
+    </change>
+    <change actionname="titulo">
+      {li}Corrigido defeito que considerava uma recorrência a mais nos títulos recorrentes.
+    </change>
+  </release>
+
+  <release label="2010.1" date="05/02/2010" emphasize="28/02/2010">
+    <change actionname="conta">
+      {li}Criado o cadastro de Conta.
+    </change>
+    <change actionname="lancamento">
+      {li}Criado o cadastro de Lançamento em Conta.
+    </change>
+    <change actionname="transferenciaConta">
+      {li}Criado o processo de Transferência entre Contas.
+    </change>
+    <change actionname="ajusteEstoque">
+      {li}Criado o processo de Ajuste de Estoque.
+    </change>
+    <change actionname="ajusteMix">
+      {li}Criado o processo de Ajuste de Mix.
+    </change>
+    <change actionname="transferenciaProduto">
+      {li}Criado o processo de Transferência de Produtos entre Empresas.
+    </change>
+    <change actionname="analiseCaixa">
+      {li}Criado o relatório de Análise de Caixa.
+    </change>
+    <change actionname="contaSaldo">
+      {li}Criado o cartão de Saldo em Contas.
+    </change>
+    <change actionname="contato">
+      {li}Adicionado recurso de consulta de CEP.
+    </change>
+    <change actionname="produtoSaida">
+      {li}Adicionados os campos Preço e Desconto.
+      {li}Adicionada funcionalidade para calcular o Valor a partir do Desconto e virse-versa.
+    </change>
+    <change actionname="entregaSaida">
+      {li}Corrigido bug que permitia a entrega de uma saída não faturada.
+    </change>
+    <change actionname="quitacaoTitulo">
+      {li}Permitido selecionar a conta utilizada para pagamento.
+      {li}As contas pagas e recebidas agora são inseridas como lançamentos na conta selecionada.
+    </change>
+    <change actionname="fluxoCaixa">
+      {li}Agora o Fluxo de Caixa conta com o Saldo atual em Conta.
+      {li}Incluído parâmetro para emissão do relatório Consolidado.
+      {li}Incluída totalização mensal de pagamentos e recebimentos.
+    </change>
+  </release>
+</releasenotes>

@@ -1,0 +1,176 @@
+a {
+  color:            #003dcd;
+  text-decoration:  none;
+}
+
+a:hover {
+  color:            #003dcd;
+  text-decoration:  underline;
+}
+
+body {
+  background-color: #FFFFFF;
+  color:            #3b3b3b;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+}
+
+table {
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+}
+
+.FieldLabel {
+  background-color: #FFFFFF;
+  color:            #b1c0d6;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+}
+
+.FieldText {
+  background-color: #FFFFFF;
+  color:            #3b3b3b;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+}
+
+fieldset {
+  border:           1px solid #b1c0d6;
+  cursor:           default;
+  padding:          4px;
+  margin:           2px;
+}
+
+.Info {
+  background-color: #ffffc0;
+  color:            #3b3b3b;
+}
+
+legend {
+  color:            #b1c0d6;
+  cursor:           default;
+}
+
+.Grid {
+  background-color: #FFFFFF;
+  border:           1px solid #b1c0d6;
+  border-collapse:  collapse;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+}
+
+.GridFooter {
+  background-color: #deecfc;
+  border-top:       1px solid #b1c0d6;
+  color:            #3b3b3b;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+  height:           19px;
+  padding-left:     3px;
+}
+
+.GridHeader {
+  background-color: #deecfc;
+  border-bottom:    1px solid #b1c0d6;
+  color:            #3b3b3b;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+  height:           19px;
+  padding-left:     3px;
+}
+
+.GridRow {
+  border:           1px solid #deecfc;
+  background-color: #ffffff;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+}
+
+.GridRowOdd {
+  border:           1px solid #deecfc;
+  background-color: #ffffff;
+  color:            #000000;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+}
+
+.GridRowEven {
+  border:           1px solid #deecfc;
+  background-color: #eff6fd;
+  color:            #000000;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+}
+
+.ParamLabel {
+  background-color: #FFFFFF;
+  color:            #b1c0d6;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      bold;
+}
+
+.ParamText {
+  background-color: #FFFFFF;
+  color:            #3b3b3b;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        9pt;
+  font-weight:      normal;
+}
+
+.Title {
+  background-color: #FFFFFF;
+  color:            #384e73;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        14pt;
+  font-weight:      bold;
+}
+
+.Title1 {
+  background-color: #FFFFFF;
+  border-bottom:    1px solid #b1c0d6;
+  color:            #384e73;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        13pt;
+  font-weight:      bold;
+}
+
+.Title2 {
+  background-color: #FFFFFF;
+  color:            #384e73;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        11pt;
+  font-weight:      bold;
+  font-style:       italic;
+}
+
+.Title3 {
+  background-color: #FFFFFF;
+  color:            #384e73;
+  font-family:      tahoma, verdana, helvetica, sans-serif;
+  font-size:        11pt;
+  font-weight:      bold;
+  font-style:       italic;
+}
+
+
+
+
+
+/**
+ * iobjects.ui.Chart
+ */
+
+Chart {
+  backgroundColor      : #ffffff;
+  alternateGridColor   : #eff6fd;
+  gridLineColor        : #deecfc;
+}

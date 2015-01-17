@@ -1,0 +1,6 @@
+<masterrelationex>
+  <information active="false"
+               classname="imanager.process.BIMasterRelationEx"
+               sidebaractionname="biMasterRelationExSideBar"
+               securityserviceactionname="biMasterRelationExSecurityService" />
+</masterrelationex>

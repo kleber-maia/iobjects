@@ -17,7 +17,10 @@ iObjects is all about reducing project's delivery time and ensuring product's hi
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/1.png)
 
-### The story behind
+## Business objects
+In the begining of my carrer, I read this book entitled "Responsability Theory" (in portuguese, Teoria da Responsabilidade, or something like that) which gave me a profound sense of object oriented design. It also made me rethink everything I had ever done, until I started to notice the "coincidences" between the problems and the solutions I had designed. At the end of that philosophical trip, I came up with these three design patterns which has been meeting 100% of my needs when the problem is an information system.
+
+## The story behind
 
 I started developing iObjects in 2002 when I was decided to migrate from Win32/Delphi universe to the Web/Java/HTML/CSS/JavaScript stack. A few years before, in 1998, I had developed a pretty amazing framework with Delphi which was the foundation I had used to launch a best seller ERP product. That time, my company had closed several great contracts and we had grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected at all, even we having hired only interns. So, I was decided to replicate that success, but leaving Windows behind.
 

@@ -22,6 +22,10 @@ A long time ago, I read this book entitled "Theory of Responsibility" (in portug
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/2.png)
 
+### Entity
+The Entity is, by far, the only "complex" design pattern. Considering the nature of information systems, where users spend 80% of the time inserting records, the Entity has to cover several different use cases. So, which are the Entity's responsabilities?
+1. a
+
 ## The story behind
 
 I started developing iObjects in 2002 when I was decided to migrate from Win32/Delphi universe to the Web/Java/HTML/CSS/JavaScript stack. A few years before, in 1998, I had developed a pretty amazing framework with Delphi which was the foundation I had used to launch a best seller ERP product. That time, my company had closed several great contracts and we had grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected at all, even we having hired only interns. So, I was decided to replicate that success, but leaving Windows behind.

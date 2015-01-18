@@ -9,6 +9,7 @@ iObjects is a framework written in Java/HTML/CSS/JavaScript for developing web a
 - Smartphone user interface; 
 - Replaceable security service; 
 - User color schemes; 
+- Integrated help system and release notes;
 - Dozens of other exciting features.
 
 ## About

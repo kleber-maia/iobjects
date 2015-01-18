@@ -37,12 +37,19 @@ The Entity is, by far, the only "complex" design pattern. Considering the nature
 - It has a searchByFilter method to...return one or more records by using custom search criterias.
 - It counts with several reusable controls to make it easy to display and edit records.
 
-There is a particular use case that sometimes makes some confusion: master-detail relationships. If you just assume that the master and the detail records may be inserted in different transactions (non atomic) there is no complexity at all in this case: it's just a matter of screen design.
+There is a particular use case that, sometimes, creates some confusion: master-detail relationships. If you just assume that the master and the detail records may be inserted in different transactions (non atomic) there is no complexity at all in this case: it's just a matter of screen design and both database tables may be managed independently by its related Entity class.
 
 #### Process
-The Process is where the magic of the simplicity happens. At this point, I'm pretty sure you got what the Entity is all about: manage a single database table. So, how about the requirements where we need to deal with two or more database tables? We are talking about the Process, of course.
+The Process is where the magic of the simplicity happens. At this point, I'm pretty sure you got what the Entity is all about: manage a single database table. So, how about the requirements where we need to deal with two or more database tables? We are talking about the Process, of course. How it works?
 
+- It contains user params to allow the user to select options, enter data or whatever you need.
+- It contains a method execute in which you:
+  - receive those params;
+  - instantiate all needed Entities;
+  - run your business logic;
+  - commit the changes to the database.
 
+You may have noticed that all the performed operations are atomic. Additionally, that particular business logic you had just implemented must never be implemented elsewhere.
 
 ## The story behind
 

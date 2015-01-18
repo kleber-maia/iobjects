@@ -22,7 +22,7 @@ A long time ago, I read this book entitled "Theory of Responsibility" (in portug
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/2.png)
 
-### Entity
+#### Entity
 The Entity is, by far, the only "complex" design pattern. Considering the nature of information systems, where users spend 80% of the time inserting records, the Entity has to cover several different use cases. So, which are the Entity's responsibilities and characteristics?
 
 - Each database table must have its related Entity class. Why? Because...
@@ -36,6 +36,13 @@ The Entity is, by far, the only "complex" design pattern. Considering the nature
 - It has a findByPrimaryKey method to...return a record by using its primary key.
 - It has a searchByFilter method to...return one or more records by using custom search criterias.
 - It counts with several reusable controls to make it easy to display and edit records.
+
+There is a particular use case that sometimes makes some confusion: master-detail relationships. If you just assume that the master and the detail records may be inserted in different transactions (non atomic) there is no complexity at all in this case: it's just a matter of screen design.
+
+#### Process
+The Process is where the magic of the simplicity happens. At this point, I'm pretty sure you got what the Entity is all about: manage a single database table. So, how about the requirements where we need to deal with two or more database tables? We are talking about the Process, of course.
+
+
 
 ## The story behind
 

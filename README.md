@@ -23,8 +23,13 @@ A long time ago, I read this book entitled "Theory of Responsibility" (in portug
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/2.png)
 
 ### Entity
-The Entity is, by far, the only "complex" design pattern. Considering the nature of information systems, where users spend 80% of the time inserting records, the Entity has to cover several different use cases. So, which are the Entity's responsabilities?
-1. a
+The Entity is, by far, the only "complex" design pattern. Considering the nature of information systems, where users spend 80% of the time inserting records, the Entity has to cover several different use cases. So, which are the Entity's responsibilities and characteristics?
+
+- Each database table must have its related Entity class. Why? Because...
+- Only that Entity and that Entity only is responsible for validating, inserting, deleting and finding records on its related database table.
+- It contains field descriptors with each database table field's attributes, like: field name, type, size, caption, help description, format, mask and constraints.
+- It may contains lookups to retrieve other Entity's field values by using foreign keys.
+- 
 
 ## The story behind
 

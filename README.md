@@ -12,4 +12,4 @@ iObjects is a framework written in Java/HTML/CSS/JavaScript for developing web a
 - Dozens of other exciting features.
 
 ## About
-I started developing iObjects in 2002 when I decided to migrate from Win32/Delphi stack to the Web/Java universe. With Delphi, I have developed a pretty amazing framework which was the foundation I have used to develop an ERP solution a few years before. That time, my company got several great clients and we have grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected, even we hiring only interns.
+I started developing iObjects in 2002 when I decided to migrate from Win32/Delphi universe to the Web/Java/HTML/CSS/JavaScript stack. With Delphi, I have developed a pretty amazing framework which was the foundation I have used to develop an ERP solution a few years before. That time, my company got several great clients and we have grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected, even we hiring only interns.

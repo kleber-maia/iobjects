@@ -1,5 +1,5 @@
 # iObjects
-iObjects is a framework written in Java/HTML/CSS/JavaScript for developing web and mobile information systems. Key features: 
+iObjects is a framework written in Java/HTML/CSS/JavaScript for developing web and mobile information systems. Some of its key features are: 
 - 200+ classes, tools and UI components; 
 - 3 code generators; 
 - Dozens of design patterns; 

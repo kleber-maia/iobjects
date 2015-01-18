@@ -51,6 +51,19 @@ The Process is where the magic of the simplicity happens. At this point, I'm pre
 
 You may have noticed that all the performed operations are atomic. Additionally, that particular business logic you had just implemented must never be implemented elsewhere.
 
+On the UI side, the Process counts with the Wizard: my web implementation of the famous Microsoft Windows wizards where the user is guided through a few steps, answering questions and/or selecting options, until the process may finally execute.
+
+#### Report
+The Report design pattern is the easiest to understand and implement. Every requirement that only shows data and/or information to the user will be implemented as a Report. Let's see its characteristics:
+
+- It contains user params to allow the user to select filter options or whatever you need.
+- It must contain a method for each section of the report in which you:
+  - receive those params;
+  - run your pretty amazing SQL script;
+  - return a Resultset with your querie's result.
+
+The rest of the magic happens on the screen, with beautiful charts and zebra grids. iObjects offers a dozen of controls to make even more easy to loop into the Resultset's records, format, align and show its data.
+
 ## The story behind
 
 I started developing iObjects in 2002 when I was decided to migrate from Win32/Delphi universe to the Web/Java/HTML/CSS/JavaScript stack. A few years before, in 1998, I had developed a pretty amazing framework with Delphi which was the foundation I had used to launch a best seller ERP product. That time, my company had closed several great contracts and we had grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected at all, even we having hired only interns. So, I was decided to replicate that success, but leaving Windows behind.

@@ -19,6 +19,8 @@ iObjects is all about reducing project's delivery time and ensuring product's hi
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/1.png)
 
+Although the source code is really well documented, all the comments (and the user interface as well) were published as is: in brazilian portuguese. I apologize for any inconvenience, but I'm afraid I'll not have spare time enough to work on any kind of translation.
+
 ## Business objects
 A long time ago, I read this book entitled "Theory of Responsibility" (in portuguese, Teoria da Responsabilidade, or something like that) which gave me a profound sense of object oriented design. It also made me rethink everything I had ever done, until I started to notice the "coincidences" between the problems and the solutions I had designed. At the end of that philosophical trip, I came up with these three design patterns which has been meeting 100% of my needs when designing information systems.
 

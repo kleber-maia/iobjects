@@ -100,7 +100,7 @@ iObjects was designed in such way that it is, indeed, the application. Instead o
 If I could give you only one advice, I'd tell you: keep things simple. If you plan to unplug or exchange a particular extension, be careful with how other classes depend on its classes. The ExtensionManager class provides an easy way to check if an extensions is present or not. Additionally, you may want to create a traceability matrix to keep track on the dependencies.
 
 ## Actions
-We have discussed a lot about the business logic and you may be wondering: how about the UI? Now that you know about extensions and business objects, I can now reveal the magic behind the Action. Each business object (Entity, Process or Report) has an ActionList which may contain none, one or more Actions. Each Action points to a JSP and contains attributes to help the user easily identify its function.
+We have discussed a lot about the business logic and you may be wondering: how about the UI? Now that you know about extensions and business objects, I can reveal the magic behind the Action. Each business object (Entity, Process or Report) has an ActionList which may contain none, one or more Actions. Each Action points to a JSP and contains attributes to help the user easily identify its function.
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/4.png)
 

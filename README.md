@@ -25,13 +25,21 @@ Although the source code is really well documented, all the comments (and the us
 1. Download/obtain the project.
 2. Create the database: there is a .sql file on the root of this project which contains all the needed table structure, plus a few sample records. Although the script was generated from a PostgreSQL database, it should be easy to migrate it to another RDMS of your choice.
 3. Open **iobjects/web.work/connections/default.dbc** and configure it to access your recently created database.
-4. If you are using Netbeans 7+, just Run the project (F6). If you are using another IDE, it may require some configuration.
+4. If you are using Netbeans 8+, just Run the project (F6). If you are using another IDE, it may require some configuration.
 5. You should see the login screen in your default web browser.
 
 The following users will be automatically created on the first run. Additionally, you'll be able to insert any users and roles that you need by using the [Security Service](https://github.com/kleber-maia/iobjects-security-service) module's interface.
 - Username: **@Super Usuário**, Password: **superusuario**
 - Username: **Administrador**, Password: **administrador**
 - Username: **Convidado**, Password: **convidado**
+
+#### Technical requisites
+- Java 1.6 or higher
+- Netbeans 8.0 or higher.
+- PostgreSQL 8.0 or higher or any RDMS of your choice.
+ 
+#### Compatibility
+All you need to take full advantage of the application is a modern web browser. My team and I have tested with Safari 7+, Chrome 432+ and Internet Explorer 9+.
 
 ## Business objects
 A long time ago, I read this book entitled "Theory of Responsibility" (in portuguese, Teoria da Responsabilidade, or something like that) which gave me a profound sense of object oriented design. It also made me rethink everything I had ever done, until I started to notice the "coincidences" between the problems and the solutions I had designed. At the end of that philosophical trip, I came up with these three design patterns which has been meeting 100% of my needs when designing information systems.
@@ -81,7 +89,7 @@ The Report design pattern is the easiest to understand and implement. Every requ
 The rest of the magic happens on the screen, with beautiful charts and zebra grids. iObjects offers a dozen of controls to make even more easy to loop into the Resultset's records, format, align and show its data.
 
 ## Extensions
-Back in 1998, I got a job on this company which was migrating its ERP software from MS-DOS (pretty jurassic, ahn?) to Windows using Delphi. Turns out that the software was so big that, at some point, Windows couldn't even run it anymore. The lead engineers had this "brilliant" idea of dismembering the software in several executables. I left the company on that day. =)
+Many years ago, I got a job on this company which was migrating its ERP software from MS-DOS (pretty jurassic, ahn?) to Windows using Delphi. Turns out that the software was so big that, at some point, Windows couldn't even run it anymore. The lead engineers had this "brilliant" idea of dismembering the software in several executables. I left the company at the end of that day. =)
 
 Extensions are one of the most exciting things I have ever implemented. First time in Delphi and after that in Java. Although the platforms are totally different, the concept is the same: having the possibility of dynamically loading modules containing business logic and its UI.
 

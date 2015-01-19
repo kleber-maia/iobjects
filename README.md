@@ -21,6 +21,18 @@ iObjects is all about reducing project's delivery time and ensuring product's hi
 
 Although the source code is really well documented, all the comments (and the user interface as well) were published as is: in brazilian portuguese. I apologize for any inconvenience, but I'm afraid I'll not have spare time enough to work on any kind of translation.
 
+## Quickly running
+1. Download/obtain the project.
+2. Create the database: there is a .sql file on the root of this project which contains all the needed table structure, plus a few sample records. Although the script was generated from a PostgreSQL database, it should be easy to migrate it to another RDMS of your choice.
+3. Open **iobjects/web.work/connections/default.dbc** and configure it to access your recently created database.
+4. If you are using Netbeans 7+, just Run the project (F6). If you are using another IDE, it may require some configuration.
+5. You should see the login screen in your default web browser.
+
+The following users will be automatically created on the first run. Additionally, you'll be able to insert all users and roles that you need by using the [Security Service](https://github.com/kleber-maia/iobjects-security-service) module's interface.
+- Username: **@Super Usuário**, Password: **superusuario**
+- Username: **Administrador**, Password: **administrador**
+- Username: **Convidado**, Password: **convidado**
+
 ## Business objects
 A long time ago, I read this book entitled "Theory of Responsibility" (in portuguese, Teoria da Responsabilidade, or something like that) which gave me a profound sense of object oriented design. It also made me rethink everything I had ever done, until I started to notice the "coincidences" between the problems and the solutions I had designed. At the end of that philosophical trip, I came up with these three design patterns which has been meeting 100% of my needs when designing information systems.
 

@@ -73,6 +73,8 @@ Extensions are one of the most exciting things I have ever implemented. First ti
 
 iObjects was designed in such way that it is, indeed, the application. Instead of creating an application on iObjects, you'll create extensions containing business objects. Is up to you how many extensions you will have and which business objects each one will have inside.
 
+If I could give you only one advice, I'd tell you: keep things simple. If you plan to unplug or exchange a particular extension, be careful with how other classes depend on its classes. The ExtensionManager class provides an easy to way to check if an extensions is present or not. Additionally, you may want to create a traceability matrix to keep track on the dependencies.
+
 ## The story behind
 
 I started developing iObjects in 2002 when I was decided to migrate from Win32/Delphi universe to the Web/Java/HTML/CSS/JavaScript stack. A few years before, 1998-2001, I had developed a pretty amazing framework with Delphi which was the foundation I had used to launch a best seller ERP product. That time, my company had closed several great contracts and we had grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected at all, even we having hired only interns. So, I was decided to replicate that success, but leaving Windows behind.

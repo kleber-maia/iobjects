@@ -28,7 +28,7 @@ Although the source code is really well documented, all the comments (and the us
 4. If you are using Netbeans 7+, just Run the project (F6). If you are using another IDE, it may require some configuration.
 5. You should see the login screen in your default web browser.
 
-The following users will be automatically created on the first run. Additionally, you'll be able to insert all users and roles that you need by using the [Security Service](https://github.com/kleber-maia/iobjects-security-service) module's interface.
+The following users will be automatically created on the first run. Additionally, you'll be able to insert any users and roles that you need by using the [Security Service](https://github.com/kleber-maia/iobjects-security-service) module's interface.
 - Username: **@Super Usuário**, Password: **superusuario**
 - Username: **Administrador**, Password: **administrador**
 - Username: **Convidado**, Password: **convidado**

@@ -65,7 +65,7 @@ The Report design pattern is the easiest to understand and implement. Every requ
 The rest of the magic happens on the screen, with beautiful charts and zebra grids. iObjects offers a dozen of controls to make even more easy to loop into the Resultset's records, format, align and show its data.
 
 ## Extensions
-Extensions are one of the most exciting things I have ever implemented. Back in 1998, I got a job on this company which was migrating its ERP software from MS-DOS (pretty jurassic, ahn?) to Windows using Delphi. Turns out that the software was so big that, at some point, Windows couldn't run it anymore.
+Extensions are one of the most exciting things I have ever implemented. Back in 1998, I got a job on this company which was migrating its ERP software from MS-DOS (pretty jurassic, ahn?) to Windows using Delphi. Turns out that the software was so big that, at some point, Windows couldn't even run it anymore. The lead engineers had this "brilliant" idea of dismembering the software in several executables. That day, I left the company. =) 
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/3.png)
 

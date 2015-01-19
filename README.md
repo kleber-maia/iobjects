@@ -21,7 +21,7 @@ iObjects is all about reducing project's delivery time and ensuring product's hi
 
 Although the source code is really well documented, all the comments (and the user interface as well) were published as is: in brazilian portuguese. I apologize for any inconvenience, but I'm afraid I'll not have spare time enough to work on any kind of translation.
 
-## Quickly running
+## Running
 1. Download/obtain the project.
 2. Create the database: there is a .sql file on the root of this project which contains all the needed table structure, plus a few sample records. Although the script was generated from a PostgreSQL database, it should be easy to migrate it to another RDMS of your choice.
 3. Open **iobjects/web.work/connections/default.dbc** and configure it to access your recently created database.

@@ -67,9 +67,11 @@ The rest of the magic happens on the screen, with beautiful charts and zebra gri
 ## Extensions
 Back in 1998, I got a job on this company which was migrating its ERP software from MS-DOS (pretty jurassic, ahn?) to Windows using Delphi. Turns out that the software was so big that, at some point, Windows couldn't even run it anymore. The lead engineers had this "brilliant" idea of dismembering the software in several executables. I left the company on that day. =)
 
-Extensions are one of the most exciting things I have ever implemented. First time in Delphi and after that in Java. Although the platforms are totally different, the concept is the same: have the possibility of dynamically load modules containing business logic and its UI.
+Extensions are one of the most exciting things I have ever implemented. First time in Delphi and after that in Java. Although the platforms are totally different, the concept is the same: having the possibility of dynamically loading modules containing business logic and its UI.
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/3.png)
+
+iObjects was designed in such way that it is, indeed, the application. Instead of creating an application on iObjects, you'll create extensions containing business objects. Is up to you how many extensions you will have and which business objects each one will have inside.
 
 ## The story behind
 

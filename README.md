@@ -10,7 +10,9 @@ iObjects is a framework written in Java/HTML/CSS/JavaScript for developing web a
 - Replaceable security service; 
 - User color schemes; 
 - Integrated help system and release notes;
-- Dozens of other exciting features.
+- Dozens of other exciting features. 
+
+You can take a look into the [iObjects CRM](https://github.com/kleber-maia/iobjects-crm) and [iObjects Security Service](https://github.com/kleber-maia/iobjects-security-service) projects to see some screen shots of a final product developed on iObjects.
 
 ## About
 iObjects is all about reducing project's delivery time and ensuring product's high quality. It abstracts key pieces from all steps of the development cycle and makes the whole process a piece of cake. Even inexperienced developers can act as systems analysts, developers, testers and documenters, transforming needs in great, low budget solutions.

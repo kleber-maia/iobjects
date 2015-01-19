@@ -39,7 +39,7 @@ The following users will be automatically created on the first run. Additionally
 - PostgreSQL 8.0 or higher or any RDMS of your choice.
  
 #### Compatibility
-All you need to take full advantage of the application is a modern web browser. My team and I have tested with Safari 7 or higher, Chrome 432 or higher =), Internet Explorer 9 or higher.
+All you need to take full advantage of the application is a modern web browser, like: Safari 7 or higher, Chrome 432 or higher =), Internet Explorer 9 or higher.
 
 ## Business objects
 A long time ago, I read this book entitled "Theory of Responsibility" (in portuguese, Teoria da Responsabilidade, or something like that) which gave me a profound sense of object oriented design. It also made me rethink everything I had ever done, until I started to notice the "coincidences" between the problems and the solutions I had designed. At the end of that philosophical trip, I came up with these three design patterns which has been meeting 100% of my needs when designing information systems.

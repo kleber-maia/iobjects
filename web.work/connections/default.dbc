@@ -1,7 +1,7 @@
 <!-- iManager -->
 <connection readonly="false" dictionary="" advertising="">
-  <driver name="org.postgresql.Driver" url="jdbc:postgresql://server.imanager.com.br/free2" />
-  <user name="imanager" password="iman456526" />
+  <driver name="org.postgresql.Driver" url="jdbc:postgresql://localhost/databasename" />
+  <user name="username" password="password" />
   <sessionmanager allowsameuserlogon="true" maxdefaultconnections="-1" />
   <mapping>
   </mapping>

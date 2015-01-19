@@ -65,14 +65,15 @@ The Report design pattern is the easiest to understand and implement. Every requ
 The rest of the magic happens on the screen, with beautiful charts and zebra grids. iObjects offers a dozen of controls to make even more easy to loop into the Resultset's records, format, align and show its data.
 
 ## Extensions
-Extensions are one of the most exciting things I have ever implemented. Back in 1998, I got a job on this company which was migrating its ERP software from MS-DOS (pretty jurassic, ahn?) to Windows using Delphi. Turns out that the software was so big that, at some point, Windows couldn't even run it anymore. The lead engineers had this "brilliant" idea of dismembering the software in several executables. That day, I left the company. =) 
+Back in 1998, I got a job on this company which was migrating its ERP software from MS-DOS (pretty jurassic, ahn?) to Windows using Delphi. Turns out that the software was so big that, at some point, Windows couldn't even run it anymore. The lead engineers had this "brilliant" idea of dismembering the software in several executables. I left the company on that day. =)
+
+Extensions are one of the most exciting things I have ever implemented. First time in Delphi and after that in Java. Although the platforms are totally different, the concept is the same: have the possibility of dynamically load modules containing business logic and its UI.
 
 ![](https://raw.github.com/kleber-maia/iobjects/master/README.img/3.png)
 
-
 ## The story behind
 
-I started developing iObjects in 2002 when I was decided to migrate from Win32/Delphi universe to the Web/Java/HTML/CSS/JavaScript stack. A few years before, in 1998, I had developed a pretty amazing framework with Delphi which was the foundation I had used to launch a best seller ERP product. That time, my company had closed several great contracts and we had grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected at all, even we having hired only interns. So, I was decided to replicate that success, but leaving Windows behind.
+I started developing iObjects in 2002 when I was decided to migrate from Win32/Delphi universe to the Web/Java/HTML/CSS/JavaScript stack. A few years before, 1998-2001, I had developed a pretty amazing framework with Delphi which was the foundation I had used to launch a best seller ERP product. That time, my company had closed several great contracts and we had grown from 2 to 20 developers in just a few months. The great news is that the ERP quality wasn't affected at all, even we having hired only interns. So, I was decided to replicate that success, but leaving Windows behind.
 
 Between 2002 and 2008, this framework had a few different names and was used as foundation to develop dozens of information systems, to address several different problems, for several different companies. In 2008, it got its current name and shape. It's now made of 500K+ lines of codes and comments which, by the way, have been written exclusively by my two hands. As I can remember, the only third party component inside iObjects is the great [Highcharts](http://highcharts.com) JavaScript library, which I had not included in any of these previous countings.
 

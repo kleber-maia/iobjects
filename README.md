@@ -14,14 +14,6 @@ iObjects is a framework written in Java/HTML/CSS/JavaScript for developing web a
 
 You can take a look at the [iObjects CRM](https://github.com/kleber-maia/iobjects-crm) and [iObjects Security Service](https://github.com/kleber-maia/iobjects-security-service) projects to see some screen shots of a final product developed on iObjects.
 
-Also, you can have access to Softgroup iManager demo version which was developed on iObjects and includes the CRM module.
-
-1. Access [http://server.imanager.com.br](http://server.imanager.com.br)
-2. Enter the following credentials:
- - Nome da Empresa: **teste**
- - Nome ou e-mail: **convidado**
- - Senha: **crescimento**
-
 ## About
 iObjects is all about reducing project's delivery time and ensuring product's high quality. It abstracts key pieces from all steps of the development cycle and makes the whole process a piece of cake. Even inexperienced developers can act as systems analysts, developers, testers and documenters, transforming needs in great, low budget solutions.
 
